@@ -53,3 +53,9 @@ Monitore os LEDs e o Buzzer: Observe o funcionamento do sistema e ajuste os limi
 Verifique a Luminosidade: Cubra o LDR ou ilumine-o para ver como os LEDs e o buzzer reagem.
 Conclusão:
 Este projeto é uma forma simples e eficaz de monitorar a luminosidade em ambientes de armazenamento de vinho, ajudando a garantir a qualidade do produto. Você pode expandir o sistema adicionando sensores para temperatura e umidade, criando um sistema de monitoramento completo para a vinheria.
+
+
+
+Integrantes:
+1) Lucca Pereira Locambo De Oliveira
+2) Diego Merigueti Machado Garcia Tosta
