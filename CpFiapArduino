@@ -1,0 +1,47 @@
+const int ldrPin = A0;  
+const int ledVerde = 7; 
+const int ledAmarelo = 6; 
+const int ledVermelho = 5; 
+const int buzzer = 4; 
+
+int limiteOK = 600; 
+int limiteAlerta = 500; 
+int limiteProblema = 400; 
+
+void setup() {
+  pinMode(ledVerde, OUTPUT);  
+  pinMode(ledAmarelo, OUTPUT); 
+  pinMode(ledVermelho, OUTPUT); 
+  pinMode(buzzer, OUTPUT); 
+  Serial.begin(9600);
+}
+
+void loop() {
+  int valorLDR = analogRead(ldrPin);
+  Serial.print("Valor LDR: ");
+  Serial.println(valorLDR);   
+
+  if (valorLDR > limiteOK) {
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAmarelo, LOW);
+    digitalWrite(ledVermelho, LOW);
+    noTone(buzzer);
+  } 
+  else if (valorLDR > limiteProblema && valorLDR <= limiteOK) {
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAmarelo, HIGH);
+    digitalWrite(ledVermelho, LOW);
+    tone(buzzer, 1000); 
+  } 
+  else {
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAmarelo, LOW);
+    digitalWrite(ledVermelho, HIGH);
+    tone(buzzer, 1000); 
+  }
+
+  delay(1000);
+}
+
+
+############################             LINK PARA O PROJETO NO KOWKI     ####################################### ------->     https://wokwi.com/projects/410543587423201281
