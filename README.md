@@ -4,9 +4,9 @@ Descrição do Projeto: Sistema de Monitoramento de Luminosidade para Armazename
 O projeto consiste em um sistema de monitoramento de luminosidade utilizando um Arduino, que é essencial para garantir a qualidade do vinho armazenado na Vinheria Agnello. Este sistema captura dados de luminosidade do ambiente e indica se as condições estão adequadas para o armazenamento do vinho. Dependendo dos níveis de luminosidade, o sistema utiliza LEDs e um buzzer para sinalizar os estados do ambiente.
 
 Funcionalidades:
-LED Verde: Indica que as condições de luminosidade estão OK (acima de 550).
-LED Amarelo: Indica que as condições de luminosidade estão em nível de alerta (entre 350 e 550).
-LED Vermelho: Indica que as condições de luminosidade estão problemáticas (abaixo de 350).
+LED Verde: Indica que as condições de luminosidade estão OK (acima de 900).
+LED Amarelo: Indica que as condições de luminosidade estão em nível de alerta (entre 900 e 750).
+LED Vermelho: Indica que as condições de luminosidade estão problemáticas (abaixo de 650).
 Buzzer: Emite um som quando as condições estão em alerta ou problema.
 Dependências:
 Para reproduzir este projeto, você vai precisar dos seguintes componentes:
@@ -59,3 +59,4 @@ Este projeto é uma forma simples e eficaz de monitorar a luminosidade em ambien
 Integrantes:
 1) Lucca Pereira Locambo De Oliveira
 2) Diego Merigueti Machado Garcia Tosta
+3) Joud Jihad Jaber
