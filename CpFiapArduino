@@ -31,7 +31,7 @@ void loop() {
     digitalWrite(ledVerde, LOW);
     digitalWrite(ledAmarelo, HIGH);
     digitalWrite(ledVermelho, LOW);
-    tone(buzzer, 1000); 
+    noTone(buzzer); 
   } 
   else {
     digitalWrite(ledVerde, LOW);
