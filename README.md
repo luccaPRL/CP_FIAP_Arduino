@@ -44,7 +44,7 @@ Conexões do Buzzer:
 Conecte o terminal positivo do buzzer ao pino 4 do Arduino e o terminal negativo ao GND.
 
 2) Código do Arduino:
-Copie e cole o código abaixo no Arduino IDE
+Copie e cole o código abaixo no Arduino IDE.
 Localiza-se dentro do mesmo repositorio 
 
 3) Teste do Sistema:
