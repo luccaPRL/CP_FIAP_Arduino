@@ -4,9 +4,9 @@ const int ledAmarelo = 6;
 const int ledVermelho = 5; 
 const int buzzer = 4; 
 
-int limiteOK = 600; 
-int limiteAlerta = 500; 
-int limiteProblema = 400; 
+int limiteOK = 900; 
+int limiteAlerta = 750; 
+int limiteProblema = 650; 
 
 void setup() {
   pinMode(ledVerde, OUTPUT);  
