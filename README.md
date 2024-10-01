@@ -26,7 +26,7 @@ Software:
 Arduino IDE para programar o Arduino.
 Conhecimento básico em eletrônica para realizar as conexões.
 Como Reproduzir o Projeto:
-1. Montagem do Circuito:
+1) Montagem do Circuito:
 Siga os passos abaixo para montar o circuito no protoboard:
 
 Conexões do LDR:
@@ -42,11 +42,12 @@ Conecte o LED Vermelho ao pino 5 do Arduino (com um resistor de 220Ω em série)
 Conexões do Buzzer:
 
 Conecte o terminal positivo do buzzer ao pino 4 do Arduino e o terminal negativo ao GND.
-2. Código do Arduino:
+
+2) Código do Arduino:
 Copie e cole o código abaixo no Arduino IDE
 Localiza-se dentro do mesmo repositorio 
 
-3. Teste do Sistema:
+3) Teste do Sistema:
 Carregue o Código: Carregue o código no Arduino usando o Arduino IDE.
 Monitore os LEDs e o Buzzer: Observe o funcionamento do sistema e ajuste os limites conforme necessário.
 Verifique a Luminosidade: Cubra o LDR ou ilumine-o para ver como os LEDs e o buzzer reagem.
